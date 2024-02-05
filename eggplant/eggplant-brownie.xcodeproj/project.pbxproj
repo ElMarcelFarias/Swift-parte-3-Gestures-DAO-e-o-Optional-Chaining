@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		475DA6742B02552D0087287F /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475DA6732B02552D0087287F /* Alerta.swift */; };
+		47BECA612B7102F80000A4E3 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BECA602B7102F80000A4E3 /* RemoveRefeicaoViewController.swift */; };
 		B90829C72221AF9600EA37C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90829C62221AF9600EA37C8 /* AppDelegate.swift */; };
 		B90829C92221AF9600EA37C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90829C82221AF9600EA37C8 /* ViewController.swift */; };
 		B90829CC2221AF9600EA37C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90829CA2221AF9600EA37C8 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		475DA6732B02552D0087287F /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		47BECA602B7102F80000A4E3 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
 		B90829C32221AF9600EA37C8 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90829C62221AF9600EA37C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B90829C82221AF9600EA37C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B90829C82221AF9600EA37C8 /* ViewController.swift */,
 				B9AA623D2290672F00D50AE2 /* RefeicoesTableViewController.swift */,
 				B920424222A5C9910062AA66 /* AdicionarItensViewController.swift */,
+				47BECA602B7102F80000A4E3 /* RemoveRefeicaoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BECA612B7102F80000A4E3 /* RemoveRefeicaoViewController.swift in Sources */,
 				B9EFBAEA223D775300B773B2 /* Item.swift in Sources */,
 				B920424422A5C9910062AA66 /* AdicionarItensViewController.swift in Sources */,
 				B90829C92221AF9600EA37C8 /* ViewController.swift in Sources */,

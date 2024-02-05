@@ -44,14 +44,20 @@ class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDeleg
             
             let refeicao = refeicoes[indexPath.row]
             
-            let alerta = UIAlertController(title: refeicao.nome, message: refeicao.refeicaoDetalhes(), preferredStyle: .alert)
-            let botaoCancelar = UIAlertAction(title: "sair", style: .cancel, handler: nil)
             
-            alerta.addAction(botaoCancelar)
-            present(alerta, animated: true, completion: nil)
+            
+            RemoveRefeicaoViewController(controller: self).exibe(refeicao) { alert in
+                self.refeicoes.remove(at: indexPath.row)
+                self.tableView.reloadData()
+            }
+            
+            
+            
         }
         
     }
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "adicionar" {
@@ -60,6 +66,8 @@ class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDeleg
             }
         }
     }
+    
+
     
     
 }
